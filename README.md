@@ -131,6 +131,7 @@ Password protection uses **SHA-256** hashing — the password hash is embedded a
 ```
 steganography-tool/
 ├── stego.py          # Main script
+├── requirements.txt  # Python dependencies
 ├── README.md         # This file
 └── LICENSE           # MIT License
 ```
