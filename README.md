@@ -33,7 +33,7 @@ pip install pillow
 ```bash
 git clone https://github.com/VillianIR/steganography-tool.git
 cd steganography-tool
-pip install -r requirements.txt
+pip install pillow
 python stego.py
 ```
 
@@ -131,10 +131,8 @@ Password protection uses **SHA-256** hashing — the password hash is embedded a
 ```
 steganography-tool/
 ├── stego.py          # Main script
-├── requirements.txt  # Python dependencies
 ├── README.md         # This file
-├── LICENSE           # MIT License
-└── .gitignore        # Git ignore rules
+└── LICENSE           # MIT License
 ```
 
 ---
